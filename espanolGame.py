@@ -29,7 +29,7 @@ def main_game(number_task_run, character_x, character_y):
     # Инициализация Pygame
     pygame.init()
 
-    pygame.mixer.music.load("assets/music.mp3") # загрузка музыки на фон
+    pygame.mixer.music.load("assets/happy_music.mp3") # загрузка музыки на фон
     pygame.mixer.music.play(-1)  # включение музыки на фоне
     s = pygame.mixer.Sound("assets/si.ogg") # звуковой эффект "успешного выполнения задания"
 
