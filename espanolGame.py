@@ -9,7 +9,7 @@ from cine import cine
 from tienda import tienda
 
 # Размеры экрана игры
-screen_width = 1000
+screen_width = 1100
 screen_height = 700
 map_height = 600 # высота карты в игре
 
