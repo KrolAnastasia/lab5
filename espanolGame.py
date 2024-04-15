@@ -75,7 +75,7 @@ def main_game(number_task_run, character_x, character_y):
     def draw_task(string): # Отрисовка окна с заданиями
         pygame.draw.rect(screen, (238, 207, 207), (0, map_height, screen_width, screen_height - map_height))
         pygame.draw.rect(screen, WHITE, (0, map_height, screen_width, screen_height - map_height), border_radius=50)
-        font = pygame.font.Font('C:\WINDOWS\Fonts\\consola.ttf', 32)
+        font = pygame.font.Font('C:\WINDOWS\Fonts\\aria.ttf', 32)
         text = font.render(string, True, (255, 145, 0))
         text_rect = text.get_rect(center=(screen_width // 2, screen_height - ((screen_height - map_height) // 2)))
         screen.blit(text, text_rect)
