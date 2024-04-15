@@ -50,7 +50,7 @@ def main_game(number_task_run, character_x, character_y):
     character_rect.y = character_y
 
     # Подсказки
-    hint_width = 600
+    hint_width = 500
     hint_height = 400
     screen_hint = pygame.image.load("assets/hint.png")
     screen_hint = pygame.transform.scale(screen_hint, (hint_width, hint_height))
