@@ -65,7 +65,7 @@ def main_game(number_task_run, character_x, character_y):
     button_y = 10
 
     def draw_button_hint(): # Отрисовка кнопки подсказки
-        pygame.draw.rect(screen, ROSA, (button_x, button_y, button_width, button_height), border_radius=50)
+        pygame.draw.rect(screen, BLUE, (button_x, button_y, button_width, button_height), border_radius=50)
         font = pygame.font.Font('C:\WINDOWS\Fonts\\consola.ttf', 25)
 
         text = font.render("ayuda", True, WHITE)
