@@ -35,7 +35,7 @@ def main_game(number_task_run, character_x, character_y):
 
     # Установка размеров окна
     screen = pygame.display.set_mode((screen_width, screen_height))
-    pygame.display.set_caption("Paseo por la ciudad")
+    pygame.display.set_caption("La ciudad espanol")
 
     # Загрузка изображения карты города и персонажа
     city_map = pygame.image.load("assets/city_map.png")
